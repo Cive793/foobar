@@ -1,15 +1,16 @@
 @use "../base/colors";
 
 .beer-component {
-  width: 85%;
+  width: 100%;
+  box-sizing: border-box;
   .content {
     padding: 0;
-    width: 121%;
+    width: 100%;
     background-color: colors.$secondary;
     width: -webkit-fill-available;
   }
   p {
-    margin: 0 1rem 0 1rem;
+    margin: 0 1.5rem 1rem 1.5rem;
   }
 
   .collapsible {
@@ -19,7 +20,7 @@
   }
 
   .collapsible {
-    height: 1rem;
+    height: 5rem;
     width: -webkit-fill-available;
   }
 }
