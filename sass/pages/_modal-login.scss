@@ -15,7 +15,18 @@
   background: rgb(27, 11, 82);
   background: linear-gradient(0deg, rgba(27, 11, 82, 1) 0%, rgba(13, 6, 39, 1) 35%);
   #close-modal {
+    background: url("assets/icons/close.svg") no-repeat;
+    background-size: cover;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    padding: 0;
     --glow-color: none;
+    float: right;
+    margin: 0;
+    cursor: pointer;
+
+    /* --glow-color: none;
     --glow-spread-color: none;
     --enhanced-glow-color: none;
     --btn-color: colors.$contrast-primary;
@@ -30,7 +41,7 @@
     cursor: pointer;
     &:hover {
       background-color: colors.$not-validated;
-    }
+    } */
   }
 
   h1 {
