@@ -25,6 +25,12 @@
   }
 }
 
+svg {
+  float: right !important;
+  margin-top: 0.4rem !important;
+  margin-bottom: auto;
+}
+
 @media only screen and (max-width: 800px) {
   .beer-component {
     padding-right: 1.5rem;
