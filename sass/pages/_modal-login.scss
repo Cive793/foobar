@@ -13,11 +13,7 @@
   width: 25rem;
   z-index: 99999;
   background: rgb(27, 11, 82);
-  background: linear-gradient(
-    0deg,
-    rgba(27, 11, 82, 1) 0%,
-    rgba(13, 6, 39, 1) 35%
-  );
+  background: linear-gradient(0deg, rgba(27, 11, 82, 1) 0%, rgba(13, 6, 39, 1) 35%);
   #close-modal {
     --glow-color: none;
     --glow-spread-color: none;
@@ -75,7 +71,7 @@
     .input-container {
       position: relative;
       margin-bottom: 0.5rem;
-      width: 79%;
+      //width: 79%;
 
       #phone {
         width: 10rem;
@@ -168,5 +164,27 @@
 
   .payment-container {
     width: 56%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #modal-login {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+  }
+
+  #modal-login {
+    box-sizing: border-box;
+  }
+
+  #modal-login .form {
+    box-sizing: initial !important;
+  }
+
+  #modal-login #log-guest {
+    box-sizing: initial !important;
   }
 }
