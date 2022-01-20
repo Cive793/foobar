@@ -80,11 +80,16 @@
               </div>
             </div>
 
-            <label> <input name="checkbox1" type="checkbox" /> Save payment details for later. </label>
+            <label class="checkboxLabel">
+              <input name="checkbox1" type="checkbox" checked="checked" />
+              <div class="checkmark"></div>
+              Save payment details for later
+            </label>
 
-            <label>
-              <input name="checkbox2" type="checkbox" required /> I accept terms and conditions.
-              <span class="required">*</span>
+            <label class="checkboxLabel">
+              <input name="checkbox2" type="checkbox" checked="checked" required />
+              <div class="checkmark"></div>
+              I accept terms and conditions *
             </label>
 
             <button type="submit" class="finish-payment" id="button-continue">Finish Payment</button>
