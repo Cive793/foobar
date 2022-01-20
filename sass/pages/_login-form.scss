@@ -49,6 +49,10 @@ table {
   width: 100%;
 }
 
+.sub-total {
+  text-align: right;
+}
+
 .total-price {
   display: flex;
   flex-direction: row;
@@ -56,9 +60,18 @@ table {
   gap: 5rem;
   margin-top: 2rem;
   border-top: 1px solid white;
-  justify-content: right;
+  justify-content: space-between;
   align-self: stretch;
 }
+
+.total-price p,
+h3 {
+  margin-top: 2rem;
+}
+
+/*   .total-price p {
+    align-self: flex-start;
+  } */
 
 .cart-details {
   display: flex;
@@ -103,7 +116,7 @@ button#button-continue {
   align-items: center;
 
   form {
-    padding-top: 40px;
+    padding-top: 3rem;
     display: flex;
     flex-direction: column;
     width: 100%;
