@@ -6,26 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Thank You Page</title>
   </head>
-  <body>
-    <div class="thank-container">
-      <figure>
-        <img src="/assets/beer/twinbeer.png" alt="twin beer" />
-      </figure>
-      <h1>Thank you for your order!</h1>
-      <p>
-        A receipt has been sent to your email.<br />You will get notified when
-        the order is ready.
-      </p>
+  <body id="thankYou">
+    <div class="gradientContainer">
+      <div class="thank-container">
+        <figure>
+          <img src="/assets/beer/twinbeer.png" alt="twin beer" />
+        </figure>
+        <h1>Thank you for your order!</h1>
+        <p>A receipt has been sent to your email.<br />You will get notified when the order is ready.</p>
 
-      <button
-        type="button"
-        class="thank-button"
-        onclick="location.href='productlist.html';localStorage.clear();"
-      >
-        Home
-      </button>
+        <button type="button" class="thank-button" onclick="location.href='productlist.html';localStorage.clear();">Home</button>
 
-      <script type="module" src="/main.js"></script>
+        <script type="module" src="/main.js"></script>
+      </div>
     </div>
   </body>
 </html>
