@@ -77,12 +77,12 @@ button:active {
   margin: 0;
   height: 100%;
 
-  &::after {
-    /* content: "";
+  /*   &::after {
+    content: "";
     display: block;
     border-top: 1px solid colors.$font-primary;
-    margin-top: 0.4rem; */
-  }
+    margin-top: 0.4rem;
+  } */
 }
 
 .active,
