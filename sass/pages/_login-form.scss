@@ -62,11 +62,14 @@ table {
   border-top: 1px solid white;
   justify-content: space-between;
   align-self: stretch;
-}
 
-.total-price p,
-h3 {
-  margin-top: 2rem;
+  p {
+    margin-top: 2rem;
+  }
+
+  h3 {
+    margin-top: 2rem;
+  }
 }
 
 /*   .total-price p {
