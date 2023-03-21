@@ -45,7 +45,7 @@ export function getCustomerSvgs() {
 }
 
 function loadDynamicData() {
-  const url = "https://cive.herokuapp.com/";
+  const url = "https://hangover3.herokuapp.com/";
   fetch(url)
     .then((res) => res.json())
     .then((data) => getData(data));
